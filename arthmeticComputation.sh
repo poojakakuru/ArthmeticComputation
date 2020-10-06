@@ -8,3 +8,7 @@ read -p "Enter number 3:" c
 
 computation1=$(( $a+$b*$c ))
 echo "first computation is:" $computation1
+
+computation2=$(( $a*$b+$c ))
+echo "second Computation is:"$computation2
+

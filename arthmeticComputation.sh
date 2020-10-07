@@ -14,3 +14,6 @@ echo "second Computation is:"$computation2
 
 computation3=$(( $c+$a/$b ))
 echo "third computation is:"$computation3
+
+computation4=$(( $a%$b+$c ))
+echo "Fourth Computation is:"$computation4
